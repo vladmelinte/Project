@@ -33,7 +33,7 @@ public class DeclController {
 
         jpaDeclRepository.saveAndFlush(addedDecl);
 
-        return new RedirectView("/companies/");
+        return new RedirectView("/decl/");
     }
 
     @GetMapping("/")
